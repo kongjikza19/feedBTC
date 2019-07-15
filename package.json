@@ -1,0 +1,25 @@
+{
+  "name": "feedbtc",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cryptocompare": "^1.0.0",
+    "csv": "^5.1.1",
+    "csv-writer": "^1.4.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "json2csv": "^4.5.2",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.0"
+  }
+}
